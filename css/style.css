@@ -1,6 +1,18 @@
 .body{
     font-family: 'Roboto', sans-serif;
 }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .container-nav{
     width: 1200px;
     height: 80px;
@@ -786,11 +798,11 @@
     position: fixed;
     top: 0px;
 }     
-.backdrop.is-hidden{
+/* .backdrop.is-hidden{
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-}
+} */
 .modal{
     position: absolute;
     width: 528px;
