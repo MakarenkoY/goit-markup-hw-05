@@ -92,6 +92,7 @@
     letter-spacing: 0.02em;
     display: flex;
     margin-right: 50px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .style-link:hover{
     color: #2196F3;
@@ -123,6 +124,7 @@
 }
 .style-kontakts{
     color:#757575;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .style-kontakts-t{
     display: block;
@@ -139,6 +141,7 @@
 .social-icon-header{
     margin-right: 10px;
     fill: #757575;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .style-kontakts:hover .social-icon-header,
 .style-kontakts:focus .social-icon-header {
@@ -289,6 +292,7 @@
             /*  Наша команда*/
 
 .back-col{
+    background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 94px;
@@ -364,6 +368,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus{
@@ -414,6 +419,10 @@
     padding-left: 32px;
     padding-right: 32px;
     cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.client-link{
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-link:hover .social-icon-client,
 .client-link:focus .social-icon-client {
@@ -478,13 +487,6 @@
     line-height:1.71;
     letter-spacing: 0.03em;
 }
-.footer-kontakt:hover{
-    color: #2196f3;
-
-}
-.footer-kontakt:focus{
-    color: #2196f3;
-}
 .footer-kontakt{
     font-family:'Roboto';
     font-style: normal;
@@ -493,9 +495,18 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-kontakt:hover{
+    color: #2196f3;
+}
+.footer-kontakt:focus{
+    color: #2196f3;
+}
+
 .footer-social-link{
-    margin: -107px;
+    margin: -129px;
+    padding-left: 70px;
 }
 .footer-list-text{
     font-family: 'Roboto';
@@ -534,6 +545,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover,
 .footer-link:focus{
@@ -542,6 +554,10 @@
 .footer-link:hover .social-icon,
 .footer-link:focus .social-icon {
     fill: #ffffff;
+}
+.foter-kontakt {
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
         /* Portfolio */
 .style-link-col{
@@ -587,13 +603,6 @@
 .adres-footer{
     padding-top: 20px;
 }
-.footer-adress{
-padding-bottom: 9px;
-padding-top: 20px;
-}
-.footer-kontakt{
-    padding-bottom: 9px;
-}
 .btn-por{
     display:flex;
 }
@@ -636,6 +645,7 @@ padding-top: 20px;
     border-radius: 4px;
     margin-right: 8px;
     cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-portfo-2{
     font-family: 'Roboto';
@@ -651,6 +661,7 @@ padding-top: 20px;
     border-radius: 4px;
     margin-right: 8px;
     cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-portfo-3{
     font-family: 'Roboto';
@@ -666,6 +677,7 @@ padding-top: 20px;
     border-radius: 4px;
     margin-right: 8px;
     cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-portfo-4{
     font-family: 'Roboto';
@@ -681,6 +693,7 @@ padding-top: 20px;
     border-radius: 4px;
     margin-right: 8px;
     cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-portfo-5{
     font-family: 'Roboto';
@@ -695,6 +708,7 @@ padding-top: 20px;
     border: 0px;
     border-radius: 4px;
     cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foto-porto-style{
     background: #FFFFFF;
