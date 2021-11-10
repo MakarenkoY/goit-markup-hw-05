@@ -776,3 +776,43 @@
     padding-left: 24px;
     padding-right: 20px;
 }
+
+                /* Modalka */
+
+.backdrop{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(224, 8, 8, 0.1);
+    position: fixed;
+    top: 0px;
+}     
+.backdrop.is-hidden{
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+.modal{
+    position: absolute;
+    width: 528px;
+    height: 581px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    top: 50%;
+    left: 17%;
+    transform: translate(50%, -50%);
+}        
+.modal-btn{
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 50px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
